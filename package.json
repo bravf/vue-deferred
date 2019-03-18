@@ -1,10 +1,10 @@
 {
   "name": "vue-deferred",
-  "version": "0.1.0",
-  "private": true,
+  "version": "1.0.1",
+  "main": "dist/vue-deferred.umd.js",
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
+    "build": "vue-cli-service build --target lib --name vue-deferred src/index.js",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
