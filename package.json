@@ -1,6 +1,6 @@
 {
   "name": "vue-deferred",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "dist/vue-deferred.umd.js",
   "scripts": {
     "serve": "vue-cli-service serve",
@@ -9,6 +9,10 @@
   },
   "dependencies": {
     "vue": "^2.6.6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bravf/vue-deferred"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.5.0",
